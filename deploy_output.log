@@ -1,0 +1,25 @@
+==================================================
+zkQuestChain MVP - Deploy Automatizado
+==================================================
+
+[0;32m✓[0m Soroban CLI encontrado: stellar 25.1.0 (a048a57a75762458b487052e0021ea704a926bee)
+stellar-xdr 25.0.0 (dc9f40fcb83c3054341f70b65a2222073369b37b)
+xdr curr (0a621ec7811db000a60efae5b35f78dee3aa2533)
+[1;33mAVISO: SOROBAN_SECRET_KEY não configurada.[0m
+Usando identity 'default' do Soroban CLI...
+
+Configurando rede Testnet...
+[0;32m✓[0m Rede Testnet configurada
+
+Obtendo endereço do admin...
+[0;32m✓[0m Admin address: GB6TPMRQI2H4YN3FYP3VAMTGNYJBAJVMKLYK6IONG4B6NEQPH37F27YJ
+
+Verificando WASMs...
+[0;32m✓[0m ultrahonk_verifier.wasm encontrado
+[0;32m✓[0m player_registry.wasm encontrado
+[0;32m✓[0m achievement_nft.wasm encontrado
+[0;32m✓[0m quest_manager.wasm encontrado
+
+==================================================
+Iniciando deploys...
+==================================================

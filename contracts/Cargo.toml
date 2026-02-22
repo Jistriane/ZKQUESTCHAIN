@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "quest_manager",
+  "player_registry",
+  "achievement_nft",
+  "ultrahonk_verifier"
+]
+resolver = "2"
