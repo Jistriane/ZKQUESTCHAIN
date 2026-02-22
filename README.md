@@ -10,6 +10,12 @@ Educational onchain gaming platform where users prove quest completion (Sudoku) 
 
 **Status**: ✅ **FULLY DEPLOYED & OPERATIONAL** - All contracts active, Frontend running, ZK system live (Feb 22, 2026)
 
+## 🎮 Live Interface Preview
+
+![zkQuestChain Interface - Sudoku Quest #2](Dashboard%20.png)
+
+*Screenshot: Interactive Sudoku Fortress #2 quest interface with profile tracking and progress management*
+
 ## 🚀 Quick Start
 
 ```bash
