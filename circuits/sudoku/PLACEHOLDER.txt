@@ -1,0 +1,4 @@
+Coloque aqui os artifacts do circuito compilado:
+- circuit.acir
+- circuit.wasm (opcional, se seu fluxo precisar)
+- vk.json (opcional)
