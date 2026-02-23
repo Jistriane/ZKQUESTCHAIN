@@ -73,6 +73,7 @@ Complete navigation of the project documentation.
 
 | File | Description | Level |
 |------|-------------|-------|
+| [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) | Live site deployment via GitHub Pages | ⭐ Beginner |
 | [DEPLOY_INSTRUCTIONS.md](DEPLOY_INSTRUCTIONS.md) | Step-by-step deployment | ⭐⭐ Intermediate |
 | [scripts/build_contracts.sh](scripts/build_contracts.sh) | Build script | ⭐⭐ Intermediate |
 | [scripts/deploy_all_contracts.sh](scripts/deploy_all_contracts.sh) | Automated deployment | ⭐⭐⭐ Advanced |

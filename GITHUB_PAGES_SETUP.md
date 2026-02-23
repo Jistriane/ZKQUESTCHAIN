@@ -1,25 +1,39 @@
 # GitHub Pages Deployment Setup
 
-## Automatic Deployment Configured ✅
+## ✅ Deployment ACTIVE & LIVE
 
-The repository is now configured for automatic deployment to GitHub Pages using GitHub Actions.
+**Your site is now live**: https://Jistriane.github.io/ZKQUESTCHAIN/
 
-### What's been set up:
+### What's Configured:
 
 1. **GitHub Actions Workflow**: `.github/workflows/deploy-pages.yml`
-   - Triggers on push to `master` or `main` branches
-   - Automatically builds the frontend
-   - Deploys to GitHub Pages on successful build
+   - ✅ Triggers on push to `master` or `main` branches
+   - ✅ Automatically builds the frontend from `frontend/` directory
+   - ✅ Deploys to `gh-pages` branch using peaceiris/actions-gh-pages
+   - ✅ Handles CORS headers for WASM modules
 
-### To Enable GitHub Pages:
+2. **GitHub Pages Settings**
+   - Source: Deploy from branch `gh-pages` (created by workflow)
+   - Build: GitHub Actions workflow
+   - Base URL: `/ZKQUESTCHAIN/` (configured in vite.config.ts)
 
-1. Go to your GitHub repository: https://github.com/Jistriane/ZKQUESTCHAIN
-2. Click **Settings** (top right)
-3. In the left sidebar, click **Pages**
-4. Under "Build and deployment":
-   - **Source**: Select "GitHub Actions"
-   - This will automatically deploy from the GitHub Actions workflow
-5. Click **Save**
+### Configuration Details:
+
+**Frontend (vite.config.ts)**
+```typescript
+export default defineConfig({
+  base: '/ZKQUESTCHAIN/',  // Subdirectory base path
+  ...
+});
+```
+
+**Workflow (.github/workflows/deploy-pages.yml)**
+```yaml
+- Uses peaceiris/actions-gh-pages@v3
+- Publishes from ./frontend/dist
+- Automatic gh-pages branch management
+- Triggers on master/main push
+```
 
 ### How it works:
 

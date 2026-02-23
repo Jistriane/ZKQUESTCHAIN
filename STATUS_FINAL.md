@@ -38,6 +38,15 @@
 - ✅ `deploy_all_contracts.sh` - Complete automated deployment
 - ✅ `update_frontend_env.sh` - Updates .env with contract IDs
 
+## ✅ Deployment Status (February 22, 2026)
+
+### 🌐 GitHub Pages - LIVE ✅
+- **URL**: https://Jistriane.github.io/ZKQUESTCHAIN/
+- **Workflow**: `.github/workflows/deploy-pages.yml` active
+- **Auto-Deploy**: Enabled on master branch push
+- **Build Status**: Passing ✅
+- **Deployment Method**: peaceiris/actions-gh-pages
+
 ## ✅ Latest Updates (February 22, 2026)
 
 ### Frontend Status ✅

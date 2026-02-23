@@ -5,6 +5,8 @@
 
 🎉 **MVP DEPLOYED ON STELLAR TESTNET!**
 
+🌐 **[Live on GitHub Pages](https://Jistriane.github.io/ZKQUESTCHAIN/)** - Fully operational demo
+
 Educational onchain gaming platform where users prove quest completion (Sudoku) via ZK proofs verified on Soroban, minting Achievement SBTs.
 </div>
 
@@ -18,6 +20,17 @@ Educational onchain gaming platform where users prove quest completion (Sudoku) 
 
 ## 🚀 Quick Start
 
+### Online (Live Demo)
+```bash
+# Visit the live site:
+https://Jistriane.github.io/ZKQUESTCHAIN/
+
+# Connect Freighter wallet (Testnet)
+# Solve Sudoku and submit ZK proof!
+# Watch transaction execute on blockchain
+```
+
+### Local Development
 ```bash
 # 1. Clone and install dependencies
 cd frontend && npm install
